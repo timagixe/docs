@@ -1,5 +1,6 @@
 [dev]
   autoLaunch = false
+  port = 3000
 [context.dev.environment]
   # DOCS_PATH = "../apollo-server/docs/source"
 [context.production.environment]
