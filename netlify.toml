@@ -1,7 +1,10 @@
 [dev]
   autoLaunch = false
   port = 3000
+[build.environment]
+  API_URL = "https://graphql.api.apollographql.com"
 [context.dev.environment]
   # DOCS_PATH = "../apollo-server/docs/source"
+  API_URL = "https://graphql-staging.api.apollographql.com"
 [context.production.environment]
   PREFIX_PATHS = "true"
